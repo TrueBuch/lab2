@@ -40,3 +40,4 @@ C:\Network\lab2\lab2\obj\Debug\net9.0\refint\lab2.dll
 C:\Network\lab2\lab2\obj\Debug\net9.0\lab2.pdb
 C:\Network\lab2\lab2\obj\Debug\net9.0\lab2.genruntimeconfig.cache
 C:\Network\lab2\lab2\obj\Debug\net9.0\ref\lab2.dll
+C:\Network\lab2\lab2\obj\Debug\net9.0\lab2.sourcelink.json

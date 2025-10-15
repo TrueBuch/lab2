@@ -25,10 +25,10 @@ public class City
     {
         if (routes.Count == 0) return $"{Name} (нет путей)";
 
-        var str = $"Город {Name} \nПути:";
+        var str = $"Город {Name} Пути:";
 
-        foreach (City key in routes.Keys) str += $"\n{key.Name}:{routes[key]}";
+        foreach (City key in routes.Keys) str += $" {key.Name}:{routes[key]}";
 
-        return str + "\n";
+        return str;
     }
 }
