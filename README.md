@@ -33,12 +33,14 @@
 мяу-…-мяу!”, где количество “мяу” равно N. 
 
 # Задачи
+
 **Задача с городами**
 
 Используя разработанную сущность реализуйте схему, представленную на рисунке.
 
 <img width="391" height="237" alt="image" src="https://github.com/user-attachments/assets/7b3bcb86-ff35-4479-a743-1b1fc2dfcacf" />
 <img width="298" height="157" alt="image" src="https://github.com/user-attachments/assets/7bd5835f-17ba-4ce4-99cf-2597a1e51274" />
+
 
 **Задача с человеком**
 
@@ -49,6 +51,7 @@
 Человек) 
 
 <img width="430" height="80" alt="image" src="https://github.com/user-attachments/assets/90cef679-9767-4e69-a4b8-d4da9f362346" />
+
 
 **Задача с котом**
 
