@@ -13,15 +13,15 @@
 **Конструкторы:**
 - Только личное имя:
 ```csharp
-var name = new Name("Лев");
+Name name = new Name("Лев");
 ```
 - Личное имя и фамилия:
 ```csharp
-var name = new Name("Сергей", "Пушкин");
+Name name = new Name("Сергей", "Пушкин");
 ```
 - Полное имя (имя, фамилия, отчество):
 ```csharp
-var name = new Name("Сергей", "Пушкин", "Сергеевич");
+Name name = new Name("Сергей", "Пушкин", "Сергеевич");
 ```
 
 ### Person
@@ -34,19 +34,19 @@ var name = new Name("Сергей", "Пушкин", "Сергеевич");
 **Конструкторы:**
 - Имя в виде строки и рост:
 ```csharp
-var p = new Person("Лев", 170);
+Person person = new Person("Лев", 170);
 ```
 - Имя в виде строки, рост и отец:
 ```csharp
-var p = new Person("Александр", 167, father);
+Person person = new Person("Александр", 167, father);
 ```
 - Имя в виде объекта `Name` и рост:
 ```csharp
-var p = new Person(new Name("Сергей", "Пушкин"), 168);
+Person person = new Person(new Name("Сергей", "Пушкин"), 168);
 ```
 - Имя в виде объекта `Name`, рост и отец:
 ```csharp
-var p = new Person(new Name("Сергей", "Пушкин"), 168, father);
+Person person = new Person(new Name("Сергей", "Пушкин"), 168, father);
 ```
 
 ### City
@@ -57,7 +57,7 @@ var p = new Person(new Name("Сергей", "Пушкин"), 168, father);
 
 **Конструкторы:**
 ```csharp
-var city = new City("A");
+City city = new City("A");
 ```
 
 **Методы:**
@@ -72,11 +72,10 @@ var city = new City("A");
 
 **Конструкторы:**
 ```csharp
-var cat = new Cat("Барсик");
+Cat cat = new Cat("Барсик");
 ```
 
 **Методы:**
-- `ToString()` — `"Кот: Имя"`.
 - `May()` — кот издаёт `"Мяу!"`.
 - `May(int count)` — кот мяукает `count` раз:
 ```
